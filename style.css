@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(89, 197, 161);
+    padding: 0px 16px 0px 16px;
+}
+.logo {
+    width: 300px;
+}
+ul {
+    display: flex;
+    align-items: center;
+    
+}
+ul li {
+    list-style: none;
+    padding-left: 16px;
+    
+}
+ul li a {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+}
+
+.header {
+    background-color: rgb(138, 68, 204);
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+    align-items: center;
+    height: calc(100vh-70px);
+}
+
+.header h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+.header div {
+    /* padding: 16px; */
+    /* background-color: rgb(194, 36, 36); */
+}
+.header div p {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+ button  {
+    padding: 8px 16px;
+    background-color: burlywood;
+    border: none;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.header button:hover {
+
+}
+#about {
+    background-color: rgb(7, 181, 211);
+    padding: 16px;
+}
+
+#about h2 {
+    font-size: 32px;
+    text-align: center;
+    margin: 8px auto 8px auto;
+}
+
+#about .about-container {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+/* .text-flexbox {
+    display: block; 
+    margin-right: 16px;
+} */
+
+#about img {
+    width: 60%;
+    border: none;
+}
+
+#contact {
+    background-color: rgb(235, 78, 214);
+    padding: 16px;
+    /* height: 40vh;  */
+}
+#contact h2 {
+    font-size: 32px;
+    text-align: center;
+    margin: 8px auto; 
+
+}
+
+#contact .contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact img {
+    width: 90%; 
+}
+
+#form {
+    background-color: rgb(180, 73, 73);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+
+#form h2 {
+    /* text-align: center;  */
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+section #email {
+    margin-right: 30px;
+}
+section #message {
+    margin-right: 6px;
+}
+
+section #message-box {
+    margin-top: 10px;
+}
+
+footer {
+    background-color: rgb(94, 158, 102);
+    padding: 16px;
+}
+
+
+footer div {
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: center;
+}
+
+footer div ul {
+    /* padding: 8px;  */
+}
+
+footer div a {
+    margin-right: 8px;
+}
+
+footer p {
+    text-align: center;
+}
