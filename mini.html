@@ -5,24 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mini Project</title>
+    
+    <link rel="stylesheet" href="././style.css">
 </head>
 <body>
     <section>
-        <nav>
-            <img src="./HTML Practise Assets/FES.svg">
+        <nav class="nav-bar">
+            <img class="logo" src="./HTML Practise Assets/FES.svg">
             <ul>
                 <li>
-                    <a href="">About</a>
+                    <a href="#about">About</a>
                 </li>
                 <li>
-                    <a href="">Projects</a>
+                    <a href="#projects">Projects</a>
                 </li>
                 <li>
-                    <a href="">Courses</a>
+                    <a href="#contact">Contact</a>
                 </li>
             </ul>
         </nav>
-        <header>
+        <header class="header">
             <div>
                 <h1>Best place to learn front end</h1>
                 <p>Go from absolute beginner to a pro with a simplified process.</p>
@@ -35,38 +37,54 @@
         </header>
     </section>
     <main>
-        <section>
+        <section id="about">
             <h2>About</h2>
-            <div>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Enim vel nulla soluta. Officia labore placeat exercitationem, i
-                    ncidunt non esse suscipit.
-                </p>
+            <div class="about-container">
+                <div class="text-flexbox">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Enim vel nulla soluta. Officia labore placeat exercitationem, i
+                        ncidunt non esse suscipit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere accusantium delectus sed ipsum consectetur, culpa libero quia qui ullam velit!
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Enim vel nulla soluta. Officia labore placeat exercitationem, i
+                        ncidunt non esse suscipit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime dolorem dolores libero exercitationem, fugiat rem accusantium accusamus unde ipsam magni.
+                    </p>
+                </div>
                 <img src="./HTML Practise Assets/about.jpg" alt="">
             </div>
         </section>
-        <section>
+        <section id="contact">
             <h2>Discord</h2>
-            <div>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Enim vel nulla soluta. Officia labore placeat exercitationem, i
-                    ncidunt non esse suscipit.
-                </p>
-                <img src="./HTML Practise Assets/discord.png" alt="">
+            <div class="contact-container">
+                <figure>
+                    <img src="./HTML Practise Assets/discord.png" alt="">
+                </figure>
+                <div class="">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Enim vel nulla soluta. Officia labore placeat exercitationem, i
+                        ncidunt non esse suscipit.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Enim vel nulla soluta. Officia labore placeat exercitationem, i
+                        ncidunt non esse suscipit.
+                    </p>
+                </div>
             </div>
         </section>
-        <section>
+        <section id="form">
             <h2>Contact</h2>
-            <form>
+            <form id="form-container">
                 <section>
-                    <label>Email</label>
-                    <textarea cols="50" rows="2"></textarea>
+                    <label id="email">Email</label>
+                    <textarea cols="50" rows="1"></textarea>
                 </section>
                 <section>
-                    <label>Password</label>
-                    <textarea cols="50" rows="2"></textarea>
+                    <label id="message">Message</label>
+                    <textarea id="message-box" cols="50" rows="2"></textarea>
                 </section>
                 <button>Submit</button>
             </form>
@@ -76,18 +94,13 @@
         <img src="./HTML Practise Assets/FES.svg" alt="">
         <div>
             
-           <a href="">About</a>
-           
-            
-            <a href="">Projects</a>
-           
-            
-            <a href="">Courses</a>
-           
-            
-            <a href="">Discord</a>
+           <a href="#about">About</a>
+           <a href="#projects">Projects</a>
+           <a href="#courses">Courses</a>
+           <a href="">Discord</a>
            
         </div>
+        <p>Copyright Frontend simplified</p>
     </footer>
 </body>
 </html>
